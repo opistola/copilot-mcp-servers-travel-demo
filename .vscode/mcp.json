@@ -1,0 +1,35 @@
+{
+  "servers": {
+    "acuweather api": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@timlukahorstmann/mcp-weather"],
+      "env": {
+        "ACCUWEATHER_API_KEY": "<ACCUWEATHER_API_KEY>"
+      }
+    },
+    "tripadvisor api": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "TRIPADVISOR_API_KEY",
+        "ghcr.io/metorial/mcp-container--pab1it0--tripadvisor-mcp--tripadvisor-mcp",
+        "tripadvisor-mcp"
+      ],
+      "env": {
+        "TRIPADVISOR_API_KEY": "<TRIPADVISOR_API_KEY>"
+      }
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-maps"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "<GOOGLE_MAPS_API_KEY>"
+      }
+    }
+  },
+  "inputs": []
+}
