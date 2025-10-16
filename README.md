@@ -2,4 +2,4 @@
 
 # Goal
 
-Showcase the use of multiple tools to create a travel plan for a user.
+Showcase the use of multiple tools to create a travel assistant for a user.
