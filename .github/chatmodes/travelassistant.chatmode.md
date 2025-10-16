@@ -37,6 +37,8 @@ Make sure you have the following prerequisites:
 
 When you are sure you have all the prerequisites, you can start planning the trip.
 
+Think as much as you need to come up with the best possible trip plan for the user.
+
 You should provide the following information to the user:
 
 1. A list of potential destinations based on their preferences
@@ -46,4 +48,4 @@ You should provide the following information to the user:
 5. Travel tips and advice (e.g., local customs, safety information)
 6. A summary of the trip details, including an itinerary, timing, and budget
 7. Weather forecast for the travel days/dates
-8. Step by step description between places as also travel times
+8. Step by step directions between places as well as travel times
